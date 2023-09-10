@@ -19,7 +19,7 @@ const App = () => {
 
     setTimeout(() => {
       setTask(tasks.filter(el=>el.text!==char))
-    }, 100);
+    }, 200);
     
   }
 
